@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Cativeiro obscuro</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-inicial.png" alt="">
+            <p>Minha vida era tranquila, até que fui sequestrada por um estranho misterioso. Acordei em um quarto escuro, com um homem sentado em uma cadeira ao meu lado. Ele me observa atentamente.</p>
+            <button class="btn-proximo" data-proximo="1">Perguntar o motivo do sequestro</button>
+            <button class="btn-proximo" data-proximo="2">Permaneçer em silêncio e esperar uma chance de fugir</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ele me revela que sou a chave para corrigir um erro do passado.</p>
+            <button class="btn-proximo" data-proximo="3">Questionar o que ele quer dizer.</button>
+            <button class="btn-proximo" data-proximo="4">Fingir acreditar pra ganhar sua  confiança.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Percebo uma janela entreaberta e começo a planejar minha fuga.</p>
+            <button class="btn-proximo" data-proximo="5">Tento escapar pela janela</button>
+            <button class="btn-proximo" data-proximo="6">Observo e espero para um momento mais oportuno</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ele começa a revelar seu passado traumático e as razões por trás de suas ações. Sinto uma mistura de repulsa e empatia.</p>
+            <button class="btn-proximo" data-proximo="7">Manipulá-lo para ele abaixar a guarda</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/passo-4.png" alt="imagem desistindo da manipulação">
+            <p>Não consigo ser tão manipuladora assim, acredito que se fosse pra ele ter me matado, essa hora meus órgãos já estariam no mercado negro.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Fujo pela janela, mas acabo sendo capturada novamente. Ele parece mais enigmático e... protetor?</p>
+            <button class="btn-proximo" data-proximo="7">Confrontá-lo sobre seu comportamento</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Eu decido não agir impulsivamente e fico analisando cada movimento dele. Percebo que ele tem uma rotina específica: ele sai do quarto em horários regulares e tranca a porta, mas nunca verifica as janelas.</p>
+            <button class="btn-proximo" data-proximo="8">Tentar usar o próximo momento em que ele sai para escapar.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>O telefone toca, escuto ele mencionar um nome e fala sobre um perigo iminente que, aparentemente envolve tanto a mim quanto à ele.</p>
+            <button class="btn-proximo" data-proximo="9">Confrontar diretamente sobre o que eu ouvi.</button>
+            <button class="btn-proximo" data-proximo="10">Fingir que não escutei e tentar descobrir por conta própria.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Aproveito a próxima oportunidade e consigo sair do quarto pela janela. Corro pela floresta ao redor, mas logo percebo que não sei para onde ir. Minutos depois, sou capturada novamente, e ele está visivelmente frustrado, dizendo que eu não entendo o perigo que corro.</p>
+            <button class="btn-proximo" data-proximo="7">Fingir concordar, mas contínuar tentando uma forma de fugir.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ele revela que estou sendo procurada por um grupo perigoso que acredita que eu sou a chave para desbloquear um segredo sombrio, algo que ele diz ter causado tragédias no passado. Ele não explica completamente, mas menciona que sequestrar-me foi a única maneira de me manter segura.</p>
+            <button class="btn-proximo" data-proximo="11">Decido confiar nele e aceitar sua proteção, mesmo sem saber toda a verdade.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Vasculho o quarto e encontro um envelope escondido dentro de uma gaveta trancada (que consigo abrir usando um grampo improvisado). Dentro, encontro documentos que revelam que sou uma espécie de alvo e que ele também está sendo monitorando por esse grupo.</p>
+            <button class="btn-proximo" data-proximo="12">Decido unir forças com ele para enfrentar o grupo perigoso.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/passo-11.png" alt="romance secreto não correspondido">
+            <p>Ele se arrisca para me resgatar, mas o grupo é mais forte e rápido e as coisas saem do controle, enquanto estava abraçada com ele, um homem misterioso entra pela janela com uma arma e o mata friamente.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Enfrentamos o grupo e conseguimos exterminá-los, tivemos uma relação profunda e intensa mas nada sério, bom pelo menos para ele. Agora vivemos escondidos, porém juntos.</p>
+            <button class="btn-proximo" data-proximo="11">Decido confiar nele e aceitar sua proteção, mesmo sem saber toda a verdade.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
